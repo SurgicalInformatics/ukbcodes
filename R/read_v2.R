@@ -76,7 +76,7 @@ suggest_read_v2_codes = function(codes){
 }
 
 
-suggest_combination_read_v2_codes = function(codes, read_v2_icd9_complex, read_v2_icd10_complex, read_v2_opcs4_complex, read_v2_lookup) {
+suggest_combination_read_v2_codes = function(codes) {
 
   data(read_v2_icd9_complex)
   data(read_v2_icd10_complex)
