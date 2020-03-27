@@ -81,7 +81,7 @@ suggest_combination_read_v2_codes = function(codes, read_v2_icd9_complex, read_v
   data(read_v2_icd9_complex)
   data(read_v2_icd10_complex)
   data(read_v2_opcs4_complex)
-  data(read_v2_lookup_complex)
+  data(read_v2_lookup)
 
   if(!is.null(codes$icd9)){
     read_v2_icd9_complex = read_v2_icd9_complex %>%
