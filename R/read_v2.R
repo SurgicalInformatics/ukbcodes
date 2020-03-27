@@ -115,7 +115,7 @@ suggest_combination_read_v2_codes = function(codes) {
     str_remove_all("\\.+$")
 
 
-  if (length(read_v2) > 0){
+  if (length(read_v2_complex) > 0){
 
 
     cat("The generated table contains suggestions for Read Code (Version 2) codes that are equivalent to the combined ICD9, ICD10 and OPCS4 codes provided.\nEach READ code was thought to be applicable only if two separate ICD/OPCS codes were applied simultanesouly.\nIf one of these codes is thought to be relevant it can be added into the list generated from regular codes manually.\nIt is also recommended to search manually for your disease string in the View() pane as some codes are not mapped.\n")
