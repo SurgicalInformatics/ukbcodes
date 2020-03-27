@@ -1,0 +1,19 @@
+Package: ukbcodes
+Type: Package
+Title: Returns Suggestions of Equivalent Codes Based on UK Biobank Mappings
+Version: 0.1.0
+Author: Cameron J Fairfield
+Maintainer: The package maintainer <cameron.fairfield@ed.ac.uk>
+Description: ukbcodes takes an input of exisiting codes for a condition and returns suggestions in another code set.
+    Currently it is possible to suggest READ codes (V2 or V3) based on ICD9, ICD10 or OPCS4 codes.
+    It is also possible to suggest ICD9 or ICD10 codes based on READ codes or ICD9/10 codes.
+    Each suggestion is accompanied by a basic text description of the code as supplied by the UK Biobank.
+    Other mappings (e.g. OPCS4 to ICD, ICD to OPCS4, READ to OPCS4, READ V3 to READ V2 or any OPCS3 codes) are not currently supported.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    magrittr
+    purrr
+    stringr
